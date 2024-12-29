@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import express from 'express';
 import { mapOrder } from '~/utils/sorts.js';
 
@@ -27,4 +28,20 @@ app.get('/', (req, res) => {
 app.listen(port, hostname, () => {
   // eslint-disable-next-line no-console
   console.log(`Hello Trung Sine Dev, I am running at ${hostname}:${port}/`);
+=======
+// const express = require("express");
+import express from "express";
+
+const app = express();
+
+const hostname = "localhost";
+const port = 8024;
+
+app.get("/", function (req, res) {
+  res.send("<h1>Hello NodeJs</h1>");
+});
+
+app.listen(port, hostname, () => {
+  console.log(`Hello NodeJs, Running server at https://${hostname}:${port}`);
+>>>>>>> b2de7205219e6051b2649571aa348079a67c0892
 });

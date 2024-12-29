@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nodejs-expressjs-mongodb-base-project",
   "private": true,
   "version": "1.0.0",
@@ -29,5 +30,17 @@
     "babel-plugin-module-resolver": "^5.0.0",
     "eslint": "^8.47.0",
     "nodemon": "^3.0.1"
+=======
+  "name": "trello-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "trungsine mern stack",
+  "main": "src/server.js",
+  "author": "trungsine",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2"
+>>>>>>> b2de7205219e6051b2649571aa348079a67c0892
   }
 }
